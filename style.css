@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+*::selection{background-color: saddlebrown;color: yellow;}
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.list{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.item{
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    box-shadow: 10px 10px 20px grey;
+    line-height: 30px;
+}
+.item img{width: 240px;}
+.item-btn{
+    width: 100%;
+    background-color: rgba(46, 139, 86, 0);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 7px 0;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+.item-btn:hover{background-color: black;color: white;}
+.item-btn:active{box-shadow: 0 0 15px black;transition: 0.05s ease-in-out;}
+.item-order{
+    width: 100%;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    margin: 20px 0;
+}
+.item-order img{width: 120px;}
+.order-btn{
+    background-color: rgba(245, 245, 245, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+.order-btn:hover{background-color: white;color: black;}
+.order-btn:active{box-shadow: 0 0 15px white;background-color: whitesmoke;transition: 0.05s ease-in-out;}
+.card{
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 500px;
+    background-color: #453E3B;
+    height: 100vh;
+    transition: 0.5s;
+    color: yellow;
+    padding: 20px;
+}
+.active .card{
+    left: calc(100% - 500px);
+}
+.active .container{
+   transform: translateX(-200px);
+   /* transform: scale(0.85); */
+   /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()). */
+   /* transform: matrix(0.85 , 0 , 0 , 0.85 , -450px , 0); */
+}
+.active .nav-header h1{
+   transform: translateX(80px);
+}
+.card ul {
+    list-style: none;
+}
+.checkOut{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    right: 0;
+}
+.total{
+    width: 250px;
+    padding: 10px;
+    background-color: yellow;
+    color: saddlebrown;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: oblique;
+}
+.closeShopping{
+    width: 250px;
+    font-size: 20px;
+    font-weight: 600;
+    /* font-style: oblique; */
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
