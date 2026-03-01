@@ -1,5 +1,5 @@
 <!-- <p>
-DodgyDodgyDodgyDodgyDodgy-DodgyDodgy
+DodgyDodgyDodgyDodgyDodgy-DodgyDodgyDodgy
 </p> -->
 
 # 🛒 Shopping Cart JavaScript
