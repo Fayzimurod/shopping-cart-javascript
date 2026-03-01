@@ -1,7 +1,3 @@
-<!-- <p>
-DodgyDodgyDodgyDodgyDodgy-DodgyDodgyDodgyDodgyDodgy
-</p> -->
-
 # 🛒 Shopping Cart JavaScript
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
